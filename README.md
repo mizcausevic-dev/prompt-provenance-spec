@@ -52,9 +52,17 @@ Vendor prompt registries solve part of this for their customers. Prompt Provenan
 
 AGPL-3.0. The specification text is freely implementable; the schema and example documents are likewise AGPL-3.0.
 
-## Related work
+## Kinetic Gain Protocol Suite
 
-Part of the **Kinetic Gain Protocol Suite** — a family of open specifications for entity declaration, agent capability disclosure, prompt lineage, and citation evidence in the answer-engine era. See [github.com/mizcausevic-dev](https://github.com/mizcausevic-dev).
+A family of open specifications for the answer-engine era. Each spec is a self-contained JSON document format with its own JSON Schema and reference examples; together they compose into an end-to-end account of entity, agent, prompt, tool, and citation.
+
+| Spec | What it does |
+|---|---|
+| [AEO Protocol](https://github.com/mizcausevic-dev/aeo-protocol-spec) | Entity declaration at `/.well-known/aeo.json` — authoritative claims, citation preferences, audit hooks |
+| **[Prompt Provenance](https://github.com/mizcausevic-dev/prompt-provenance-spec)** | Versioned, lineaged, reviewable LLM prompt records |
+| [Agent Cards](https://github.com/mizcausevic-dev/agent-cards-spec) | Declarative agent capability and refusal disclosure |
+| [AI Evidence Format](https://github.com/mizcausevic-dev/ai-evidence-format-spec) | Structured citations that travel with LLM-generated claims |
+| [MCP Tool Cards](https://github.com/mizcausevic-dev/mcp-tool-card-spec) | Per-tool disclosure layered on Model Context Protocol servers |
 
 ---
 
