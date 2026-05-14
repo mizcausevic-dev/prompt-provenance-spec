@@ -1,5 +1,8 @@
 # Prompt Provenance
 
+[![Validate examples](https://github.com/mizcausevic-dev/prompt-provenance-spec/actions/workflows/validate.yml/badge.svg)](https://github.com/mizcausevic-dev/prompt-provenance-spec/actions/workflows/validate.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 A draft specification for **versioned, lineaged, reviewable prompt records** that travel with the prompt itself — not in a wiki, not in a spreadsheet.
 
 Every team running LLMs in production hits the same problem: prompts are the most-edited, least-version-controlled artifact in the stack. The same prompt exists in three notebooks, two repos, and someone's Slack DM, with no record of who changed what, what they were trying to fix, and whether the new version actually passed the evals.
